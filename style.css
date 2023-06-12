@@ -1,0 +1,74 @@
+
+
+body{
+    background: #27292a;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 68px;
+}
+
+
+input{
+    background-color: dimgrey;
+}
+
+.container {
+    display: flex;
+  }
+  
+  .left {
+    width: 50%;
+    
+  }
+  
+  .right {
+    width: 50%;
+
+   margin-top: 100px;
+  }
+
+  ::placeholder{
+    color: azure;
+  }
+
+  a,i{
+    color: aqua;
+  }
+  .ul {
+    display: flex;
+    color: aqua;
+    width: 30px;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+  input[type=text]{
+   width: 80%;
+   border: 1px solid aqua; 
+   padding: 20px;
+  }
+  input[type=submit]{
+    border-radius: 15%;
+    padding: 12px;
+    margin-top: 5px;
+    background-color: aqua;
+    
+  }
+
+  input[type=submit]:hover{
+    background-color: blueviolet;
+    opacity: 50%;
+  }
+textarea{
+  min-width: 86%;
+  border: 1px solid aqua; 
+}
+
+  
